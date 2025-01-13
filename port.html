@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ILHAM AKBAR</title>
+</head>
+<body>
+    <nav class="bg-gray-100 shadow sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between items-center h-16">
+            <!-- Logo -->
+            <a href="#" class="text-emerald-600 font-bold text-xl">
+              ILHAMAKBAR
+            </a>
+    
+            <!-- Hamburger Menu for Mobile -->
+            <div class="md:hidden">
+              <button id="menu-toggle" class="text-emerald-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+              </button>
+            </div>
+    
+            <!-- Navigation Links -->
+            <div id="menu" class="hidden md:flex space-x-8">
+              <a href="#beranda" class="xl:font-bold text-emerald-600 hover:text-emerald-800">Beranda</a>
+              <a href="#tentang" class="xl:font-bold text-emerald-600 hover:text-emerald-800">Tentang</a>
+              <a href="#portofolio" class="xl:font-bold text-emerald-600 hover:text-emerald-800">Portofolio</a>
+              <a href="#kontak" class="xl:font-bold text-emerald-600 hover:text-emerald-800">Kontak</a>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-100">
+          <a href="#beranda" class="block text-emerald-600 px-4 py-2 hover:bg-gray-200">Beranda</a>
+          <a href="#tentang" class="block text-emerald-600 px-4 py-2 hover:bg-gray-200">Tentang</a>
+          <a href="#portofolio" class="block text-emerald-600 px-4 py-2 hover:bg-gray-200">Portofolio</a>
+          <a href="#kontak" class="block text-emerald-600 px-4 py-2 hover:bg-gray-200">Kontak</a>
+        </div>
+    </nav>
+    <section id="beranda" class="pt-36 xl:h-screen">
+        <div class="container">
+            <div class="flex flex-wrap ">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h2 class="text-lg font-semibold text-emerald-600 xl:text-5xl xl:font-bold">HALLO👋</h2>
+                    <h1 class="text-xl font-semibold text-black mt-1 mb-6 xl:text-6xl xl:font-bold">SAYA <span class="text-emerald-600">ILHAM AKBAR</span></h1>
+                    <a href="" class="text-xl font-semibold bg-emerald-600 py-3 px-4 rounded-lg text-white hover:bg-gray-200 hover:text-emerald-600 hover:shadow-xl transition duration-300 ease-in lg:text-2xl" >Hubungi Saya</a>
+                </div>
+                <div class="w-sm self-end px-4 lg:w-1/2 xl:w-1/2">
+                    <div class="relative mt-10 xl:mt-9 xl:right-0">
+                        <img class="bg-emerald-600 max-w-sm mx-auto grayscale hover:grayscale-0  rounded-lg transition duration-300 ease-in" src="asset/Screenshot_2025-01-05_043753-removebg-preview.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tentang" class="pt-36 pb-32 bg-gray-100 xl:h-screen">
+        <div class="container">
+            <h1 class="font-bold text-black text-lg w-full px-4 mb-3 xl:text-6xl ">TENTANG SAYA</h1>
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2 xl:w-1/2">
+                    <h2 class="font-bold text-emerald-600 text-lg mb-3 xl:text-3xl ">MAHASISWA</h2>
+                    <p class="font-medium text-base text-black max-w-xl xl:text-lg">Merupakan mahasiswa <span class="text-emerald-800">Universitas Sains Al-Quran</span>, masuk pada tahun 2022 jurusan Teknik Informatika, Fakultas Teknik Ilmu Komputer. Hingga saat ini masih ingin terus mencari ilmu dan hal-hal menarik mengenai dunia pemrograman</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2 xl:w-1/2">
+                    <h2 class="font-bold text-emerald-600 text-lg mb-3 xl:text-3xl">MARI BERTEMAN</h2>
+                    <p class="font-medium text-base text-black mb-2 xl:text-lg">Ayo kunjungi media sosial saya, mari berdiskusi dan menambah teman</p>
+                    <div class="flex items-center">
+                        <a href="" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-emerald-600 hover:border-black hover:bg-emerald-600 hover:text-white duration-300 ease-in"><svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>ilham akbar</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a>
+                        <a href="" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-emerald-600 hover:border-black hover:bg-emerald-600 hover:text-white duration-300 ease-in"><svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>akbrilhm28</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg></a>
+                        <a href="" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-emerald-600 hover:border-black hover:bg-emerald-600 hover:text-white duration-300 ease-in"><svg role="img" class="fill-current" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>akbrilhm28@gmail.com</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full px-4 ">
+                <h2 class="font-bold text-emerald-600 text-lg mb-3 mt-3 md:text-3xl md:text-center xl:text-3xl xl:text-center">TEKNOLOGI DIKUASAI</h2>
+                <div class="flex items-center md:justify-center md:items-center xl:justify-center xl:items-center">
+                    <svg role="img" class="fill-current w-9 h-9 mr-3 rounded-sm p-1 flex justify-center items-center border border-emerald-600 hover:border-black hover:bg-emerald-600 hover:text-white duration-300 ease-in" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>HTML5</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
+                    <svg role="img" class="fill-current w-9 h-9 mr-3 rounded-sm p-1 flex justify-center items-center border border-emerald-600 hover:border-black hover:bg-emerald-600 hover:text-white duration-300 ease-in" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Tailwind CSS</title><path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"/></svg>
+                    <svg role="img" class="fill-current w-9 h-9 mr-3 rounded-sm p-1 flex justify-center items-center border border-emerald-600 hover:border-black hover:bg-emerald-600 hover:text-white duration-300 ease-in" width="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>CSS</title><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"/></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portofolio" class="bg-white pt-36 pb-16 xl:h-screen">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto">
+                    <h1 class="font-bold text-black text-lg w-full px-4 mb-3 xl:text-6xl xl:text-center ">PORTOFOLIO</h1>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="asset/Screenshot 2025-01-03 142234.png" alt="" width="full">
+                    </div>
+                    <h2 class="font-semibold text-xl text-emerald-600 mt-5">Portofolio 1</h2>
+                    <p class="font-medium text-md text-black">Ini adalah portofolio pertama saya gan</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="asset/Screenshot 2025-01-03 142535.png" alt="" width="full">
+                    </div>
+                    <h2 class="font-semibold text-xl text-emerald-600 mt-5">Portofolio 2</h2>
+                    <p class="font-medium text-md text-black">Ini adalah portofolio kedua saya gan</p>
+                </div>
+
+            </div>
+             
+        </div>
+
+    </section>
+    <section id="kontak" class="bg-gray-100 pt-36 pb-16 xl:h-screen xl:pt-4">
+        <div class="w-full mx-auto max-w-xl">
+            <h1 class="font-bold text-black text-lg w-full px-4 mb-3 mt- xl:text-6xl xl:text-center">Contact</h1>
+            <form class="space-y-6" action="">
+              <div>
+                <label class="font-semibold text-emerald-600 block mb-2" for="name">Nama</label>
+                <input
+                  class="w-full rounded-md border border-emerald-600 p-2"
+                  type="text"
+                  id="name"
+                  placeholder="Masukkan nama"
+                />
+              </div>
+              <div>
+                <label class="font-semibold text-emerald-600 block mb-2" for="email">Email</label>
+                <input
+                  class="w-full rounded-md border border-emerald-600 p-2"
+                  type="email"
+                  id="email"
+                  placeholder="Masukkan email"
+                />
+              </div>
+              <div>
+                <label class="font-semibold text-emerald-600 block mb-2" for="password">Password</label>
+                <input
+                  class="w-full rounded-md border border-emerald-600 p-2"
+                  type="password"
+                  id="password"
+                  placeholder="Masukkan password"
+                />
+              </div>
+              <div>
+                <label class="font-semibold text-emerald-600 block mb-2" for="message">Pesan</label>
+                <textarea
+                  class="w-full rounded-md border border-emerald-600 p-2 h-32"
+                  id="message"
+                  placeholder="Tulis pesan"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full py-2 bg-emerald-600  text-white font-semibold rounded-md hover:bg-emerald-700"
+              >
+                Kirim
+              </button>
+            </form>
+        </div>
+
+    </section>
+    <footer class="bg-white">
+        <div class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+          <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+            <a
+              class="inline-block rounded-full bg-teal-600 p-2 text-white shadow transition hover:bg-teal-500 sm:p-3 lg:p-4"
+              href="#MainContent"
+            >
+              <span class="sr-only">Back to top</span>
+      
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="size-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+      
+          <div class="lg:flex lg:items-end lg:justify-between">
+            <div>
+              <div class="flex font-extrabold text-2xl justify-center text-emerald-600 lg:justify-start">
+                <h1>ILHAM AKBAR</h1>
+              </div>
+      
+              <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-black lg:text-left">
+                Anda Sopan <br>
+                Saya  <span class="text-emerald-600 font-semibold">Yoman</span>
+              </p>
+            </div>
+      
+            <ul
+              class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
+            >
+              <li>
+                <a class="text-emerald-600 font-extrabold transition hover:text-gray-700/75" href="#beranda" > Beranda </a>
+              </li>
+      
+              <li>
+                <a class="text-emerald-600 font-extrabold transition hover:text-gray-700/75" href="#tentang" > Tentang </a>
+              </li>
+      
+              <li>
+                <a class="text-emerald-600 font-extrabold transition hover:text-gray-700/75" href="#portofolio" > Portofolio </a>
+              </li>
+      
+              <li>
+                <a class="text-emerald-600 font-extrabold transition hover:text-gray-700/75" href="#kontak" > Contac </a>
+              </li>
+            </ul>
+          </div>
+      
+          <p class="mt-12 text-center text-sm text-gray-500 lg:text-right">
+            Copyright &copy; 2025. Made with 💚 By Ilham.
+          </p>
+        </div>
+    </footer>
+    <script>
+        // Toggle the mobile menu
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        menuToggle.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
